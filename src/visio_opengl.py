@@ -49,7 +49,7 @@ def parse_gcode_numpy(filename):
     return np.array(pos, dtype=np.float32), np.array(colors, dtype=np.float32)
 
 if __name__ == '__main__':
-    input_file = '../examples/logo_polman_fiks_banget.nc'  # Ganti dengan path ke file G-code Anda
+    input_file = '../examples/logo_polman.nc'  # Ganti dengan path ke file G-code Anda
     
     if os.path.exists(input_file):
         print(f"Membaca file: {input_file}...")
