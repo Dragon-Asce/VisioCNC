@@ -103,7 +103,7 @@ def plot_gcode_animated(segments):
     plt.show()
 
 if __name__ == '__main__':
-    input_file = '../examples/piramida.gcode' # Sesuaikan dengan nama file G-code Anda
+    input_file = '../examples/logo_polman.nc' # Sesuaikan dengan nama file G-code Anda
     
     if os.path.exists(input_file):
         print(f"Membaca file: {input_file}...")
